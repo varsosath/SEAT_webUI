@@ -1,0 +1,88 @@
+	#chart_container {
+	 display: flex;
+			width: 96%;
+			margin-left:10px;
+			margin-top:4px;
+			height:45vh;
+			
+			resize:both;
+			 		 
+			overflow: auto;
+		}
+.create_operator{
+background-color:#699ff9;border-radius: 4px; 
+  color: white;
+  margin-left:10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;}
+
+.delete_selected_button{background-color:#b92c42;border-radius: 4px; 
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;}
+
+		.flowchart-example-container {
+			width: 100%;
+
+			background: white;
+			border: 1px solid #BBB;
+			margin-bottom: 10px;
+		}
+#operator_properties{background_color:white; margin-left:5px;}
+		
+	
+	body { background-color:#f5f6fa; font-size:12px;}
+	
+	  table{font-size:12px;}
+        td,th {text-align:center; padding:1em;}
+		
+		
+		
+        .container { margin:10px; position:relative;  float:left;  overflow: auto; }
+		.wrapper { width:96%; overflow: hidden; bottom:0; display: flex; border:1px solid #BBB; resize:both; margin-left:10px; margin-top:2px; height:250px;}
+		
+		th {
+    background-color:#bcc9f5;
+}
+		
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#78756c
+}
+
+li {
+  float: left;
+}
+li :hover { filter: brightness(0.8);}
+
+li a {cursor:default;
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom:3px;
+ padding-left:10px;
+ padding-right:10px;
+  text-decoration: none;
+}
+
+	li a:hover {
+ 
+   text-decoration: none;
+   color: white!important;
+}	 
+
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
